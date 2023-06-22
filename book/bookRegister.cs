@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace book
+namespace Book
 {
-    public class bookRegister
+    public class BookRegister
     {
         protected string Name { get; set; }
         protected string Author { get; set; }
         protected int PublicationDate { get; set; }
 
-        public bookRegister(string name, string author, int publicationDate)
+        public BookRegister(string name, string author, int publicationDate)
         {
             Name = name;
             Author = author;

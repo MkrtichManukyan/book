@@ -1,5 +1,5 @@
 ﻿
-using book;
+using Book;
 
 var newBook1 = new FictionBook("13 km from the tunnel", "Ruben Yesayan", 2023, "Armenian", 4800, "AMD");
 var newBook2 = new FictionBook("Blood stone", "Irna Van Zyl", 2023, "Armenian", 5990, "AMD");
